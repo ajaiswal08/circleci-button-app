@@ -1,0 +1,17 @@
+{
+  "name": "circleci-button-app",
+  "version": "1.0.0",
+  "main": "start-server.js",
+  "scripts": {
+    "test": "node start-server.js & timeout /t 2 > nul & npx jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "jest": "^30.0.0",
+    "puppeteer": "^24.10.1"
+  }
+}
